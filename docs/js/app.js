@@ -1,23 +1,23 @@
-const url = 'https://600ff44f6c21e1001704fac2.mockapi.io/minor-web/api/'
+const url = 'https://6017df5c971d850017a3f1ad.mockapi.io/minor-web/api/'
 
 // GET REQUEST
-const teams = fetch(`${url}/squads/1/teams/3/members/`)
+const teams = fetch(`${url}/squads/6/teams/3/members/`)
                 .then(response => response.json())
                 .then(data => console.log('fetch', data));
 
 // PUT REQUEST
 const putData = {
-    id:1,
-    teamId:1,
-    name:'Sanne',
+    id:4,
+    teamId:6,
+    name:'Guus',
     prefix:'',
-    surname:'Duinker',
+    surname:'Maij',
     mugshot:'',
-    githubHandle:'',
+    githubHandle:'https://github.com/tsjuusmei',
     other: {
-        sport: '',
-        muziek: '',
-        werkplek: ''
+        sport: 'Boxing',
+        muziek: 'Mac Miller',
+        werkplek: 'Home Desk'
     }
 }
 
@@ -32,7 +32,7 @@ async function postData(url = '', data = {}) {
     return response.json();
 }
   
-postData(`${url}/squads/1/teams/1/members/1`, putData)
+postData(`${url}/squads/2/teams/6/members/4`, putData)
     .then(data => {
         console.log('put', data);
     });
