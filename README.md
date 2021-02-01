@@ -9,7 +9,7 @@ In this repository I created a small visit card for my new classmates to get to 
 ## Information
 
 I started off pushing some personal data to an API, so I could use vanilla JavaScript to show this data on my visit card.
-This code is commented out, but can be seen [here](https://github.com/tsjuusmei/kickoff-2021/blob/main/js/app.js#L67-L96)
+This code is commented out, but can be seen [here](https://github.com/tsjuusmei/kickoff-2021/blob/main/js/app.js#L67-L96).
 
 Once I put my information in the API, I could start writing code to create my visit card.
 
@@ -56,6 +56,16 @@ See the full file [here](https://github.com/tsjuusmei/kickoff-2021/blob/main/js/
 ## Assignment
 
 [Full assignment](https://cmda-minor-web.github.io/kickoff-2021/)
+
+## Install
+
+1. Clone this repo
+
+```
+git clone https://github.com/tsjuusmei/kickoff-2021.git
+```
+
+2. Open the index.html file within a browser
 
 
 ## License
